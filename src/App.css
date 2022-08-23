@@ -1,0 +1,212 @@
+.bg-goldenrod {
+    background-color: #ecb322;
+  }
+  .modale::-webkit-scrollbar-track{
+    background-color:rgb(25, 26, 32);
+  }
+  body{
+    background-color: rgb(25, 26, 32);
+  }
+  th,td {
+    border: 0.5px solid rgb(217, 216, 214);
+    padding: 5px;
+  }
+  .css-4t3x6l-MuiPaper-root-MuiDrawer-paper{
+    background-color: rgb(25, 26, 32)!important;
+  }
+  .css-4t3x6l-MuiPaper-root-MuiDrawer-paper li,svg{
+    color: white;
+  }
+  thead {
+    font-size: 14px;
+    background-color: inherit;
+    color: rgba(255, 255, 255, 0.781);
+    text-align: center;
+  }
+  
+  tbody {
+    font-size: 13px;
+    text-align: center;
+  }
+  
+  th {
+    vertical-align: top;
+  }
+  
+  .card-header {
+    font-size: 14px;
+  }
+  
+  .card-body {
+    font-size: 13px;
+  }
+  
+  .flex {
+    display: inline;
+  }
+  
+  .button {
+    border: 1px solid #ecb322;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .button_1 {
+    float: inline-start;
+  }
+  
+  .button_2 { 
+    float: inline-end;
+    background-color: #ecb322;
+  }
+  
+  .card_content {
+    padding: 10px;
+    border-left: 2px solid #EBB016;
+  }
+  
+  .wrap-circles {
+    display: flex;
+    min-height: 15vh;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 1rem;
+  }
+  
+  .circle {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    margin: 0.5rem;
+    border-radius: 50%;
+    background: #FFCDB2;
+    overflow: hidden;
+  }
+  
+  .circle.per-75 {
+    background-image: conic-gradient(#EBB016 75%, rgb(32, 32, 32));
+  }
+  
+  .circle .inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 115px;
+    height: 115px;
+    background:rgb(32, 32, 32);
+    border-radius: 50%;
+    font-size: 1.85em;
+    font-weight: 300;
+    color: white;
+  }
+  .modale{
+  position: fixed;
+  width: 500px;
+  height: 450px;
+  top:15%;
+  left:40%;
+  z-index:99;
+  background-color:rgb(218, 218, 218)!important;
+  }
+  .css-1d3z3hw-MuiOutlinedInput-notchedOutline{
+    width:98%;
+    margin-left:1% !important;;
+  }
+  .hide{
+  background-color:rgba(0, 0, 0, 0.897);
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  z-index:99;
+  }
+  
+  .buttonadd button{
+  border:1px solid rgb(25, 26, 32);
+  color:rgb(201, 199, 199);
+  margin-top:20px;
+  width:100%;
+  height:40px;
+  background-color: rgb(25, 26, 32);
+  }
+  .buttonadd button:hover{
+  background-color:#EBB016;
+  color: white;
+  }
+  .left{
+    background-color: rgba(0, 0, 0, 0)!important;
+  }
+  .left-card p,td{
+    color: white;
+  }
+  .left-card{
+    background-color:rgba(32, 32, 32, 0.664)!important;
+  }
+  .arrange{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+  }
+  .inputlabel{
+    border-bottom: 1px solid white!important;
+    border:none;
+    background-color:rgb(0,0,0,0);
+    color: white;
+    position: absolute;
+    right: 25px;
+    width:40px;
+  }
+  .btnlabelunedited{
+    border: none;
+    background-color:rgb(0,0,0,0);
+    color: white;
+    position: absolute;
+    right: 25px;
+    width:20px;
+  }
+  .icon-edit{
+    position: absolute;
+    right: 0;
+    background-color:rgb(0,0,0,0);
+    border:none;
+  }
+  .generer{
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0);
+    color: #EBB016;
+  
+  }
+  .card h5{
+    text-align: center;
+  }
+  .header{
+    background-color:#EBB016;
+  }
+  .css-1e6y48t-MuiButtonBase-root-MuiButton-root{
+    color: white !important;
+  }
+  .css-ptiqhd-MuiSvgIcon-root{
+    color: #EBB016;
+  }
+  .input_field{
+    overflow-y: scroll;
+  }
+  .navbar {
+    display: flex;
+  }
+  
+  body {
+    overflow: hidden;
+  }
+  
+  .logout {
+    border: 1px solid white;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
